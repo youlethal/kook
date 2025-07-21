@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "kook",
+    "TEMPLATE_ID": "gym-classic",
+    "MODULES": "Gallery,E-commerce,staff,social",
+    "THEME": "Light"
+  }
+}
